@@ -229,9 +229,9 @@ Changes to Outputs:
 1. [Packer](https://www.packer.io/) от HashiCorp
 >Packer lets you create identical machine images for multiple platforms from a single source configuration. A common use case is creating golden images for organizations to use in cloud infrastructure.
 2. 
-- [main.tf](src/main.tf)
-- [versions.tf](src/versions.tf)
-- [outputs.tf](src/outputs.tf)
+- [main.tf](main.tf)
+- [versions.tf](versions.tf)
+- [outputs.tf](outputs.tf)
 ---
 
 ### Как cдавать задание
