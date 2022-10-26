@@ -77,7 +77,7 @@ vk@vkvm:~$ export YC_FOLDER_ID=$(~/yandex-cloud/bin/yc config get folder-id)
 # Решение
 
 ID последней доступной версии Ubuntu будем определять в versions.tf таким образом
-```json
+```
 data "yandex_compute_image" "ubuntu_image" {
   family = "ubuntu-2204-lts"
 }
@@ -111,8 +111,12 @@ should now work.
 If you ever set or change modules or backend configuration for Terraform,
 rerun this command to reinitialize your working directory. If you forget, other
 commands will detect it and remind you to do so if necessary.
+
+
 vk@vkvm:~/DZ7.2$ terraform  validate
 Success! The configuration is valid.
+
+
 vk@vkvm:~/DZ7.2$ terraform plan
 data.yandex_compute_image.ubuntu_image: Reading...
 data.yandex_compute_image.ubuntu_image: Read complete after 2s [id=fd8egv6phshj1f64q94n]
