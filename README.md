@@ -1,0 +1,1 @@
+# devops-DZ7.2-Terraform-Syntax
